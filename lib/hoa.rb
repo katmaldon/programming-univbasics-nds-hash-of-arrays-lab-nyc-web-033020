@@ -10,5 +10,6 @@ def add_character(show, name)
   # Should return the array of the 'show' argument
   
   if !BASE_HOA[show].include?(name)
-  		BASE_HOA[show] << name
+  	BASE_HOA[show] << name
+  end
 end
